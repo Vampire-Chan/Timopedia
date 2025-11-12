@@ -309,6 +309,128 @@ footer {
     text-decoration: underline;
 }
 
+.article-content {
+    padding: 1rem;
+}
+
+.article-content h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.article-content h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.3rem;
+    color: var(--text-color);
+}
+
+.article-content p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.article-content ul {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.article-content li {
+    margin-bottom: 0.5rem;
+}
+
+.article-list {
+    list-style: none;
+    padding: 0;
+}
+
+.article-list li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.article-list a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+.article-list a:hover {
+    text-decoration: underline;
+}
+
+.subtopics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.subtopic-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+}
+
+.subtopic-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtopic-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.subtopic-card p {
+    margin: 0;
+    color: var(--text-color);
+    opacity: 0.8;
+    font-size: 0.9rem;
+}
+
+.featured-article {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+.featured-article h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.featured-article h4 a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.featured-article h4 a:hover {
+    text-decoration: underline;
+}
+
+.featured-article p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .header-content {
