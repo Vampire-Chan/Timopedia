@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timopedia - The Free Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <h1>Timopedia</h1>
+                <p>The Free Encyclopedia</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Main Page</a></li>
+                    <li><a href="#">Contents</a></li>
+                    <li><a href="#">Featured content</a></li>
+                    <li><a href="#">Current events</a></li>
+                    <li><a href="#">Random article</a></li>
+                    <li><a href="#">Donate to Timopedia</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">About Timopedia</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <aside class="left-sidebar">
+                <div class="sidebar-section">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="politics/">Politics</a></li>
+                        <li><a href="geography/">Geography</a></li>
+                        <li><a href="physics/">Physics</a></li>
+                        <li><a href="science/">Science</a></li>
+                        <li><a href="economics/">Economics</a></li>
+                        <li><a href="culture/">Culture</a></li>
+                        <li><a href="military/">Military</a></li>
+                        <li><a href="technology/">Technology</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3>Search</h3>
+                    <form class="search-form">
+                        <input type="text" placeholder="Search Timopedia..." class="search-input">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+                </div>
+            </aside>
+
+            <div class="main-content">
+                <div class="hero">
+                    <h1>Welcome to Timopedia</h1>
+                    <p>The free encyclopedia that anyone can edit. Explore accurate and unaltered historical information across various categories.</p>
+                </div>
+
+                <section id="categories" class="categories-section">
+                    <h2>Categories</h2>
+                    <div class="categories-grid">
+                        <div class="category-card" data-category="politics">
+                            <h2>Politics</h2>
+                            <p>Explore the history of political systems, leaders, and events that shaped nations.</p>
+                            <a href="politics/" class="card-link">Explore Politics</a>
+                        </div>
+                        <div class="category-card" data-category="geography">
+                            <h2>Geography</h2>
+                            <p>Discover the historical geography, maps, and territorial changes throughout time.</p>
+                            <a href="geography/" class="card-link">Explore Geography</a>
+                        </div>
+                        <div class="category-card" data-category="physics">
+                            <h2>Physics</h2>
+                            <p>Learn about the historical development of physical sciences and discoveries.</p>
+                            <a href="physics/" class="card-link">Explore Physics</a>
+                        </div>
+                        <div class="category-card" data-category="science">
+                            <h2>Science</h2>
+                            <p>Dive into the history of scientific advancements and key figures in various fields.</p>
+                            <a href="science/" class="card-link">Explore Science</a>
+                        </div>
+                        <div class="category-card" data-category="economics">
+                            <h2>Economics</h2>
+                            <p>Understand the historical evolution of economic systems and theories.</p>
+                            <a href="economics/" class="card-link">Explore Economics</a>
+                        </div>
+                        <div class="category-card" data-category="culture">
+                            <h2>Culture</h2>
+                            <p>Explore cultural histories, traditions, and societal developments.</p>
+                            <a href="culture/" class="card-link">Explore Culture</a>
+                        </div>
+                        <div class="category-card" data-category="military">
+                            <h2>Military</h2>
+                            <p>Study the history of warfare, battles, and military strategies.</p>
+                            <a href="military/" class="card-link">Explore Military</a>
+                        </div>
+                        <div class="category-card" data-category="technology">
+                            <h2>Technology</h2>
+                            <p>Trace the historical progression of technological innovations.</p>
+                            <a href="technology/" class="card-link">Explore Technology</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="right-sidebar">
+                <div class="sidebar-section">
+                    <h3>Contents</h3>
+                    <ul class="toc-list">
+                        <li><a href="#hero">Welcome</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3>Featured Articles</h3>
+                    <ul>
+                        <li><a href="#">Featured Article 1</a></li>
+                        <li><a href="#">Featured Article 2</a></li>
+                        <li><a href="#">Featured Article 3</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <h3>Recent Changes</h3>
+                    <ul>
+                        <li><a href="#">Recent Change 1</a></li>
+                        <li><a href="#">Recent Change 2</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Timopedia. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
